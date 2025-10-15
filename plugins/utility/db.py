@@ -28,7 +28,7 @@ keys_collection = db['keys']
 skpk_keys_collection = db['skpk_keys']
 gateways_collection = db['gateways']
 
-OWNER_ID = 5882652117  # Owner's ID
+OWNER_ID = 5218397363  # Owner's ID
 DEFAULT_CREDITS = 0  # Default credits for new users
 
 async def add_or_update_skpk(sk_live, pk_live):
@@ -463,6 +463,7 @@ async def init():
     await initialize_default_gateways()
 
     print("MongoDB connection established and initialization complete.")
+
 
 
 
