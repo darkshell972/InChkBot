@@ -3,7 +3,7 @@ from plugins.utility.db import *
 import asyncio,requests,time
 import os.path, sys
 from capsolv import *
-LOG_CHAT_ID = -1002250449294
+LOG_CHAT_ID = -1002913042616
 prefixes = ['!', '/', '.', '#', '$']
 async def log_action(client, message, action, details):
     user_id = message.from_user.id
@@ -561,3 +561,4 @@ async def test_captcha_command(client, message):
     text += f"<b>Time Taken:</b> <code>{time_taken:.2f}</code> seconds"
     
     await x.edit(text)
+
