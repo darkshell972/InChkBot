@@ -109,7 +109,7 @@ Status: Active ✅
 - - - - - - - - - - - - - - - - - - - - - 
 Use the button below to view commands or use '/cmds' .
 
-Developer: </b><b>@XAY4N</b>
+Developer: </b><b>@c34der</b>
 '''
     await m.reply_text(txt, reply_to_message_id=m.id, reply_markup=markup)
 
@@ -136,7 +136,7 @@ async def handle_cmds(bot: Client, m: Message):
 Total Gateways: <code>{total_gateways}</code>
 Total Tools: <code>7</code>
 ━━━━━━━━━━━━
-Developer: @XAY4N</b>
+Developer: @c34der</b>
 '''
     await m.reply_text(txt, reply_markup=markup, reply_to_message_id=m.id)
 
@@ -195,7 +195,7 @@ async def callback_query_handler(bot: Client, call: CallbackQuery):
 Total Gateways: <code>{total_gateways}</code>
 Total Tools: <code>7</code>
 ━━━━━━━━━━━━
-Developer: @XAY4N</b>
+Developer: @c34der</b>
 '''
         markup = InlineKeyboardMarkup(
             [
@@ -505,4 +505,5 @@ async def update_gateway_cmd(bot: Client, m: Message):
             await m.reply_text("Failed to update gateway status. Please try again.", reply_to_message_id=m.id)
     
     except Exception as e:
+
         await m.reply_text(f"Error: {str(e)}", reply_to_message_id=m.id)
