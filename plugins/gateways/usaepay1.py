@@ -68,7 +68,7 @@ async def sa(client, message):
 ━━━━━━━━━━━━
 <b>[<a href="https://t.me/Instuff_bot">↯</a>]</b> 𝐌𝐞𝐬𝐬𝐚𝐠𝐞: <code>{is_ban}</code>
 ━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@XAY4N</code> 🍀
+<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@c34der</code> 🍀
 ''', quote=True, disable_web_page_preview=True)
     x = await message.reply('Processing...', reply_to_message_id=mid)
     start_time = time.perf_counter()
@@ -95,7 +95,8 @@ async def sa(client, message):
 <b>[<a href="https://t.me/Instuff_bot">⌥</a>]</b> 𝐓𝐢𝐦𝐞: <code>{elapsed_time}</code> 𝐒𝐞𝐜. || 𝐏𝐫𝐨𝐱𝐲: <b><code>Live ✅</code></b>
 <b>[<a href="https://t.me/Instuff_bot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={user_id}">{first_n}</a> <b>[{rank}]</b>
 <b>- - - - - - - - - - - - - - - - - - - - - - - -</b>
-<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@XAY4N</code> 🍀
+<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@c34der</code> 🍀
 '''
     await x.edit(text, disable_web_page_preview=True)    
+
 
