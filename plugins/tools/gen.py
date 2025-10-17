@@ -125,37 +125,37 @@ async def gen(client: Client, message: Message):
                 file.write("\n".join(generated_cards))
             
             caption = f"""
-<b>[<a href="https://t.me/Instuff_bot">⌥</a>]</b> 𝐂𝐂 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐨𝐫 𝐀𝐩𝐢
+<b>[<a href="https://t.me/c34dercheckerbot">⌥</a>]</b> 𝐂𝐂 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐨𝐫 𝐀𝐩𝐢
 ━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐁𝐢𝐧: <code>{bin_code[:6]}</code> || 𝐄𝐱𝐩𝐢𝐫𝐞: <code>{mes}|{ano}</code> || 𝐂𝐯𝐯: <code>{cvv}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐀𝐦𝐨𝐮𝐧𝐭: <code>{amount}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐁𝐢𝐧 𝐈𝐧𝐟𝐨: {brand} - {typea} - {level}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country_name} [<code>{country_flag}</code>]
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐁𝐢𝐧: <code>{bin_code[:6]}</code> || 𝐄𝐱𝐩𝐢𝐫𝐞: <code>{mes}|{ano}</code> || 𝐂𝐯𝐯: <code>{cvv}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐀𝐦𝐨𝐮𝐧𝐭: <code>{amount}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐁𝐢𝐧 𝐈𝐧𝐟𝐨: {brand} - {typea} - {level}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country_name} [<code>{country_flag}</code>]
 ━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">≹</a>]</b> 𝐓𝐢𝐦𝐞: <code>{tiempofinal - tiempoinicio:0.2f} seconds</code>
-<b>[<a href="https://t.me/Instuff_bot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> <b>[{rank}]</b>
+<b>[<a href="https://t.me/c34dercheckerbot">≹</a>]</b> 𝐓𝐢𝐦𝐞: <code>{tiempofinal - tiempoinicio:0.2f} seconds</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> <b>[{rank}]</b>
 """
             await client.send_document(message.chat.id, file_path, caption=caption, reply_to_message_id=message.id)
             os.remove(file_path)
         else:
             card_list = '\n'.join([f"<code>{card}</code>" for card in generated_cards])
             text = f"""
-<b>[<a href="https://t.me/Instuff_bot">⌥</a>]</b> 𝐂𝐂 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐨𝐫 𝐀𝐩𝐢
+<b>[<a href="https://t.me/c34dercheckerbot">⌥</a>]</b> 𝐂𝐂 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐨𝐫 𝐀𝐩𝐢
 ━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐁𝐢𝐧: <code>{bin_code[:6]}</code> || 𝐄𝐱𝐩𝐢𝐫𝐞: <code>{mes}|{ano}</code> || 𝐂𝐯𝐯: <code>{cvv}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐀𝐦𝐨𝐮𝐧𝐭: <code>{amount}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐁𝐢𝐧: <code>{bin_code[:6]}</code> || 𝐄𝐱𝐩𝐢𝐫𝐞: <code>{mes}|{ano}</code> || 𝐂𝐯𝐯: <code>{cvv}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐀𝐦𝐨𝐮𝐧𝐭: <code>{amount}</code>
 ━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⎐</a>]</b> 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐂𝐚𝐫𝐝𝐬:
+<b>[<a href="https://t.me/c34dercheckerbot">⎐</a>]</b> 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐂𝐚𝐫𝐝𝐬:
 - - - - - - - - - - - - - - - - - - 
 {card_list}
 - - - - - - - - - - - - - - - - - - 
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐁𝐢𝐧 𝐈𝐧𝐟𝐨: {brand} - {typea} - {level}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country_name} [<code>{country_flag}</code>]
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐁𝐢𝐧 𝐈𝐧𝐟𝐨: {brand} - {typea} - {level}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: {country_name} [<code>{country_flag}</code>]
 ━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">≹</a>]</b> 𝐓𝐢𝐦𝐞: <code>{tiempofinal - tiempoinicio:0.2f} seconds</code>
-<b>[<a href="https://t.me/Instuff_bot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> <b>[{rank}]</b>
+<b>[<a href="https://t.me/c34dercheckerbot">≹</a>]</b> 𝐓𝐢𝐦𝐞: <code>{tiempofinal - tiempoinicio:0.2f} seconds</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> <b>[{rank}]</b>
 """
             await message.reply_text(f'{text}', reply_to_message_id=message.id, disable_web_page_preview=True)
     except pyrogram.errors.BadRequest as e:
