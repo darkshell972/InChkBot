@@ -76,7 +76,7 @@ async def check_status(message, sk):
 <b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: 𝐒𝐤 𝐊𝐞𝐲 𝐑𝐞𝐯𝐨𝐤𝐞𝐝 ❌
 ━━━━━━━━━━━━━━━━━
 <b>[<a href="https://t.me/Instuff_bot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{first}</a> <b>[{rank}]</b>
-<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@XAY4N</code> 🍀
+<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@c34der</code> 🍀
 """
         return txtx
     
@@ -94,18 +94,18 @@ async def check_status(message, sk):
 <b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Your account cannot currently make live charges.
 ━━━━━━━━━━━━━━━━━
 <b>[<a href="https://t.me/Instuff_bot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{first}</a> <b>[{rank}]</b>
-<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@XAY4N</code> 🍀
+<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@c34der</code> 🍀
 """
         return txtx
     if "inactive" in pay_meth:
         texxt = f"""
-<b>[<a href="https://t.me/Instuff_bot">⌥</a>]</b> 𝐒𝐭𝐫𝐢𝐩𝐞 𝐊𝐞𝐲 𝐋𝐨𝐨𝐤𝐮𝐩
+<b>[<a href="https://t.me/c34dercheckerbot">⌥</a>]</b> 𝐒𝐭𝐫𝐢𝐩𝐞 𝐊𝐞𝐲 𝐋𝐨𝐨𝐤𝐮𝐩
 ━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐒𝐤: <code>{sk}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Your account cannot currently make live charges.
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐒𝐤: <code>{sk}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: Your account cannot currently make live charges.
 ━━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{first}</a> <b>[{rank}]</b>
-<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@XAY4N</code> 🍀
+<b>[<a href="https://t.me/c34dercheckerbot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{first}</a> <b>[{rank}]</b>
+<b>[<a href="https://t.me/c34dercheckerbot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@c34der</code> 🍀
 """
         return texxt
 
@@ -143,22 +143,22 @@ async def check_status(message, sk):
     txtxtx = f"""
 <b>[<a href="https://t.me/Instuff_bot">⌥</a>]</b> 𝐒𝐭𝐫𝐢𝐩𝐞 𝐊𝐞𝐲 𝐋𝐨𝐨𝐤𝐮𝐩
 ━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐒𝐤: <code>{sk}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐏𝐤: <code>{pk1}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{r_text}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐒𝐤: <code>{sk}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐏𝐤: <code>{pk1}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>{r_text}</code>
 ━━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐈𝐃: <code>{acc_id}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐔𝐑𝐋: <code>{url}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐂𝐚𝐫𝐝 𝐏𝐚𝐲𝐦𝐞𝐧𝐭𝐬: {pay_meth}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐂𝐡𝐚𝐫𝐠𝐞 𝐄𝐧𝐚𝐛𝐥𝐞𝐝: {payments}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐂𝐮𝐫𝐫𝐞𝐧𝐜𝐲: {crn}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐁𝐚𝐥𝐚𝐧𝐜𝐞: {avl_bln}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐏𝐞𝐧𝐝𝐢𝐧𝐠 𝐁𝐚𝐥𝐚𝐧𝐜𝐞: {pnd_bln}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐈𝐃: <code>{acc_id}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐔𝐑𝐋: <code>{url}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐂𝐚𝐫𝐝 𝐏𝐚𝐲𝐦𝐞𝐧𝐭𝐬: {pay_meth}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐂𝐡𝐚𝐫𝐠𝐞 𝐄𝐧𝐚𝐛𝐥𝐞𝐝: {payments}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐂𝐮𝐫𝐫𝐞𝐧𝐜𝐲: {crn}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐁𝐚𝐥𝐚𝐧𝐜𝐞: {avl_bln}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐏𝐞𝐧𝐝𝐢𝐧𝐠 𝐁𝐚𝐥𝐚𝐧𝐜𝐞: {pnd_bln}
 ━━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌥</a>]</b> 𝐓𝐢𝐦𝐞: <code>{elapsed_time}</code> 𝐒𝐞𝐜.
-<b>[<a href="https://t.me/Instuff_bot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{first}</a> <b>[{rank}]</b>
+<b>[<a href="https://t.me/c34dercheckerbot">⌥</a>]</b> 𝐓𝐢𝐦𝐞: <code>{elapsed_time}</code> 𝐒𝐞𝐜.
+<b>[<a href="https://t.me/c34dercheckerbot">⎇</a>]</b> 𝐑𝐞𝐪 𝐁𝐲: <a href="tg://user?id={message.from_user.id}">{first}</a> <b>[{rank}]</b>
 ━━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@XAY4N</code> 🍀
+<b>[<a href="https://t.me/c34dercheckerbot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@c34der</code> 🍀
 """
 
     return txtxtx
