@@ -10,7 +10,7 @@ SPAM_THRESHOLD_AUTHORIZED = 20  # 25 seconds wait for authorized users
 SPAM_FILE = 'antispam_data.json'  # File to store spam data
 SCRIPT_THRESHOLD = 5  # Number of repeated actions to flag as script user
 LOG_FILE = 'script_users.log'  # Log file for script users
-BOT_OWNER_ID = 6515961910  # Owner ID to receive logs
+BOT_OWNER_ID = 5218397363  # Owner ID to receive logs
 
 # Load or create spam data JSON file
 def load_spam_data():
@@ -75,3 +75,4 @@ def clean_spam_data():
     current_time = time.time()
     spam_data = {user_id: data for user_id, data in spam_data.items() if current_time - data['last_action_time'] < 3600}
     save_spam_data(spam_data)
+
