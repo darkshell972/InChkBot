@@ -20,16 +20,16 @@ async def get_id(bot, message):
 
     if message.chat.type == 'private':
         await message.reply_text(f'''
-<b>[<a href="https://t.me/Instuff_bot">⌥</a>]</b> 𝐔𝐬𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
+<b>[<a href="https://t.me/c34dercheckerbot">⌥</a>]</b> 𝐔𝐬𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
 ━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐍𝐚𝐦𝐞: {first_name}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞: @{username}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐔𝐬𝐞𝐫 𝐈𝐃: <code>{user_id}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐂𝐡𝐚𝐭 𝐈𝐃: <code>{chat_id}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐑𝐚𝐧𝐤: <b>{rank}</b>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐄𝐱𝐩𝐢𝐫𝐲: <b>{expire}</b>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐍𝐚𝐦𝐞: {first_name}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞: @{username}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐔𝐬𝐞𝐫 𝐈𝐃: <code>{user_id}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐂𝐡𝐚𝐭 𝐈𝐃: <code>{chat_id}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐑𝐚𝐧𝐤: <b>{rank}</b>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐄𝐱𝐩𝐢𝐫𝐲: <b>{expire}</b>
 ━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@XAY4N</code> 🍀
+<b>[<a href="https://t.me/c34dercheckerbot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@c34der</code> 🍀
 ''', quote=True, disable_web_page_preview=True)
 
     else:
@@ -37,25 +37,26 @@ async def get_id(bot, message):
             await message.reply_text(f'''
 <b>[<a href="https://t.me/Instuff_bot">⌥</a>]</b> 𝐑𝐞𝐩𝐥𝐢𝐞𝐝 𝐔𝐬𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
 ━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐍𝐚𝐦𝐞: {first_name}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞: @{username}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐔𝐬𝐞𝐫 𝐈𝐃: <code>{user_id}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐂𝐡𝐚𝐭 𝐈𝐃: <code>{chat_id}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐑𝐚𝐧𝐤: <b>{rank}</b>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐄𝐱𝐩𝐢𝐫𝐲: <b>{expire}</b>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐍𝐚𝐦𝐞: {first_name}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞: @{username}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐔𝐬𝐞𝐫 𝐈𝐃: <code>{user_id}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐂𝐡𝐚𝐭 𝐈𝐃: <code>{chat_id}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐑𝐚𝐧𝐤: <b>{rank}</b>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐄𝐱𝐩𝐢𝐫𝐲: <b>{expire}</b>
 ━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@XAY4N</code> 🍀
+<b>[<a href="https://t.me/c34dercheckerbot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@c34der</code> 🍀
 ''', quote=True,disable_web_page_preview=True)
         else:
             await message.reply_text(f'''
-<b>[<a href="https://t.me/Instuff_bot">⌥</a>]</b> 𝐘𝐨𝐮𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
+<b>[<a href="https://t.me/c34dercheckerbot">⌥</a>]</b> 𝐘𝐨𝐮𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
 ━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐍𝐚𝐦𝐞: {first_name}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞: @{username}
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐔𝐬𝐞𝐫 𝐈𝐃: <code>{user_id}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐂𝐡𝐚𝐭 𝐈𝐃: <code>{chat_id}</code>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐑𝐚𝐧𝐤: <b>{rank}</b>
-<b>[<a href="https://t.me/Instuff_bot">⌬</a>]</b> 𝐄𝐱𝐩𝐢𝐫𝐲: <b>{expire}</b>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐍𝐚𝐦𝐞: {first_name}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞: @{username}
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐔𝐬𝐞𝐫 𝐈𝐃: <code>{user_id}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐂𝐡𝐚𝐭 𝐈𝐃: <code>{chat_id}</code>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐑𝐚𝐧𝐤: <b>{rank}</b>
+<b>[<a href="https://t.me/c34dercheckerbot">⌬</a>]</b> 𝐄𝐱𝐩𝐢𝐫𝐲: <b>{expire}</b>
 ━━━━━━━━━━━━━━━━
-<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@XAY4N</code> 🍀
+<b>[<a href="https://t.me/Instuff_bot">⌤</a>]</b> 𝐃𝐞𝐯 𝐛𝐲: <code>@c34der</code> 🍀
 ''', quote=True,disable_web_page_preview=True)
+
